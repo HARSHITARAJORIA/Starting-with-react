@@ -1,6 +1,7 @@
 import {useState} from 'react';
 import './App.css'
 import Chai from "./Chai.jsx";
+import Display from "./Display.jsx";
 function App() {
   
   let [counter,setCounter]=useState(0);
@@ -20,6 +21,7 @@ function App() {
       <br></br>
       <br></br>
       <button onClick={remove}>REMOVE VALUE</button>
+      <Display />
     </>
   )
 }
